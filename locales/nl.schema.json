@@ -473,10 +473,10 @@
       },
       "settings": {
         "auto_rotate": {
-          "label": "Aankondigingen automatisch draaien"
+          "label": "Automatisch draaien op desktop"
         },
         "change_slides_speed": {
-          "label": "Wissel dia's elke"
+          "label": "Wijzig elke"
         },
         "header__1": {
           "content": "Pictogrammen voor social media",
@@ -487,6 +487,20 @@
         },
         "show_social": {
           "label": "Pictogrammen op bureaublad weergeven"
+        },
+        "header__3": {
+          "content": "Kiezer voor land/regio",
+          "info": "Ga naar de [marktinstellingen](/admin/settings/markets) om een land/regio toe te voegen."
+        },
+        "enable_country_selector": {
+          "label": "Kiezer voor land/regio inschakelen"
+        },
+        "header__4": {
+          "content": "Taalkiezer",
+          "info": "Ga naar je [taalinstellingen](/admin/settings/languages) om een taal toe te voegen."
+        },
+        "enable_language_selector": {
+          "label": "Taalkiezer inschakelen"
         }
       },
       "presets": {
@@ -646,8 +660,8 @@
       "name": "Aangepaste Liquid",
       "settings": {
         "custom_liquid": {
-          "label": "Aangepaste Liquid",
-          "info": "Voeg app-fragmenten of andere Liquid-code toe om geavanceerde aanpassingen aan te maken."
+          "label": "Liquid-code",
+          "info": "Voeg app-fragmenten of andere code toe om geavanceerde aanpassingen aan te maken."
         }
       },
       "presets": {
@@ -997,9 +1011,6 @@
         },
         "image_2": {
           "label": "Tweede afbeelding"
-        },
-        "color_scheme": {
-          "info": "Zichtbaar wanneer de container wordt weergegeven."
         },
         "stack_images_on_mobile": {
           "label": "Afbeeldingen stapelen op mobiel"
@@ -1830,15 +1841,6 @@
             }
           }
         },
-        "custom_liquid": {
-          "name": "Aangepaste liquid",
-          "settings": {
-            "custom_liquid": {
-              "label": "Aangepaste liquid",
-              "info": "Voeg app-fragmenten of andere Liquid-code toe om geavanceerde aanpassingen aan te maken."
-            }
-          }
-        },
         "rating": {
           "name": "Productbeoordeling",
           "settings": {
@@ -2513,14 +2515,6 @@
             }
           }
         },
-        "custom_liquid": {
-          "name": "Aangepaste liquid",
-          "settings": {
-            "custom_liquid": {
-              "label": "Aangepaste liquid"
-            }
-          }
-        },
         "rating": {
           "name": "Productbeoordeling",
           "settings": {
@@ -2673,6 +2667,9 @@
             "label": "Rechts"
           },
           "label": "Uitlijning van content op mobiel"
+        },
+        "color_scheme": {
+          "info": "Zichtbaar wanneer de container wordt weergegeven."
         }
       },
       "blocks": {

@@ -473,10 +473,10 @@
       },
       "settings": {
         "auto_rotate": {
-          "label": "Kierrä ilmoituksia automaattisesti"
+          "label": "Käännä automaattisesti työpöydällä"
         },
         "change_slides_speed": {
-          "label": "Vaihda diat joka"
+          "label": "Vaihda joka"
         },
         "header__1": {
           "content": "Some-kuvakkeet",
@@ -487,6 +487,20 @@
         },
         "show_social": {
           "label": "Näytä työpöydällä olevat kuvakkeet"
+        },
+        "header__3": {
+          "content": "Maa-/aluevalitsin",
+          "info": "Lisää maa/alue siirtymällä [markkina-asetuksiisi.](/admin/settings/markets)"
+        },
+        "enable_country_selector": {
+          "label": "Ota käyttöön maa-/aluevalitsin"
+        },
+        "header__4": {
+          "content": "Kielivalitsin",
+          "info": "Lisää kieli siirtymällä [kieliasetuksiisi.](/admin/settings/languages)"
+        },
+        "enable_language_selector": {
+          "label": "Ota kielivalitsin käyttöön"
         }
       },
       "presets": {
@@ -646,8 +660,8 @@
       "name": "Mukautettu Liquid",
       "settings": {
         "custom_liquid": {
-          "label": "Mukautettu Liquid",
-          "info": "Luo vaativampia mukautuksia lisäämällä sovelluksen koodinpätkiä tai muita Liquid-koodeja."
+          "label": "Liquid-koodi",
+          "info": "Luo vaativampia mukautuksia lisäämällä sovelluksen koodinpätkiä tai muita koodeja."
         }
       },
       "presets": {
@@ -997,9 +1011,6 @@
         },
         "image_2": {
           "label": "Toinen kuva"
-        },
-        "color_scheme": {
-          "info": "Näkyvillä, kun säilö on esillä."
         },
         "stack_images_on_mobile": {
           "label": "Pinoa kuvat mobiilissa"
@@ -1829,15 +1840,6 @@
             }
           }
         },
-        "custom_liquid": {
-          "name": "Mukautettu liquid",
-          "settings": {
-            "custom_liquid": {
-              "label": "Mukautettu liquid",
-              "info": "Luo vaativampia mukautuksia lisäämällä sovelluksen koodinpätkiä tai muita Liquid-koodeja."
-            }
-          }
-        },
         "rating": {
           "name": "Tuotearvio",
           "settings": {
@@ -2513,14 +2515,6 @@
             }
           }
         },
-        "custom_liquid": {
-          "name": "Mukautettu liquid",
-          "settings": {
-            "custom_liquid": {
-              "label": "Mukautettu liquid"
-            }
-          }
-        },
         "rating": {
           "name": "Tuotearvio",
           "settings": {
@@ -2673,6 +2667,9 @@
             "label": "Oikealla"
           },
           "label": "Mobiilisisällön tasaus"
+        },
+        "color_scheme": {
+          "info": "Näkyvissä, kun säilö on esillä."
         }
       },
       "blocks": {
